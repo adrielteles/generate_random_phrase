@@ -19,7 +19,6 @@ while True:
         print("invalid value")
         continue
 
-
 #sentence construction
 lines = 0
 while lines < lines_number:
