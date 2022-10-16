@@ -7,7 +7,7 @@ verbs = ["nascer","viver","proceder","cair","chorar","dormir","deitar"]
 adverbs = ["Hoje","já","afinal","logo","agora","amanhã","amiúde","antes","ontem","tarde","breve","cedo","depois","enfim","ainda","jamais","nunca","sempre","doravante","outrora"]
 
 #list containing the sentence construction by word type
-sentence = [[articles,subjects,verbs,adverbs],[articles,subjects,verbs]]
+sentence = [[articles,subjects,verbs,adverbs],[articles,subjects,verbs],[articles, subjects, verbs, adverbs, articles, subjects,verbs]]
 
 
 #input the number of lines to be generated
@@ -23,7 +23,7 @@ while True:
 #sentence construction
 lines = 0
 while lines < lines_number:
-    sentense_type = sentence[random.randint(0,1)]
+    sentense_type = sentence[random.randint(0,2)]
     line = ""
     column = 0
     while column < len(sentense_type):
